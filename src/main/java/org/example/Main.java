@@ -31,7 +31,7 @@ public class Main {
             JasperPrint jasperPrint = JasperFillManager.fillReport(jasperReport, parameters, dataSource);
 
             // Export the report to a PDF file
-            JasperExportManager.exportReportToPdfFile(jasperPrint, "C:\\Develop\\Qintess\\Caixa\\Cartoes\\fatura_corte_runtime\\report.pdf");
+            JasperExportManager.exportReportToPdfFile(jasperPrint, "/home/eduardo/Dev/report.pdf");
 
             System.out.println("Report generated successfully!");
         } catch (JRException e) {
